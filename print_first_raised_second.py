@@ -4,3 +4,4 @@ num2 = int(input("Enter your second number: "))
 # calculate the result of the first number raised to the second number
 result = num1 ** num2
 # print result
+print("The result of the first number raised to the second number is", result)

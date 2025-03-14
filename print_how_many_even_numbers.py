@@ -6,3 +6,4 @@ for i in range(10):
     if num % 2 == 0:
         evens += 1
 # print the number of evens
+print("The total number of even numbers that has been given is", evens)

@@ -8,3 +8,6 @@ while True:
     except ValueError:
         break
 # print lowest to higher number from user inputs
+if nums:
+    nums.sort()
+    print("The numbers from lowest to highest numbers are", nums)

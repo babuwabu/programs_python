@@ -8,3 +8,6 @@ while True:
     except ValueError:
         break
 # print the average of all inputs
+if nums:
+    average = sum(nums) / len(nums)
+    print("The average of the numbers is", average)

@@ -8,3 +8,6 @@ while True:
     except ValueError:
         break
 # print most number of duplicates
+if nums:
+    most = max(nums, key=nums.count)
+    print("The number with most duplicates is", most)

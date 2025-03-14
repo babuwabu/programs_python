@@ -1,6 +1,13 @@
+nums = [] # store
 # ask user inputs and loop for the user to input continously until invalid
-# checks number if duplicate
-# if true print duplicate
-# checks number if unique
-# if true print unique
+while True:
+    try:
+        num = int(input("Enter your number: "))
+        if num in nums: # checks number if duplicate
+            print("Duplicate") # if true print duplicate
+        else: # checks number if unique
+            print ("Unique") # if true print unique
+            nums.append(num)
 # stop the input when invalid
+    except ValueError:
+        break 

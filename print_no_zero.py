@@ -1,4 +1,5 @@
-# upto one hundred numbers
+# upto one hundred numbers and checks if the number ends with zero
 for num in range(101):
-# checks if the number ends with zero
+    if num % 10 != 0:
+        print(num)
 # print the numbers that doesn't end with zero
